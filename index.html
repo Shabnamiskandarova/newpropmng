@@ -12,10 +12,9 @@
       <br>
       <h5>Dear, customer. Please fill out the form below.</h5><br>
       <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" class="mx-auto" >
+<input type=hidden name="orgid" value="00D8d000005zGCB">
+<input type=hidden name="retURL" value="http://">
 
-
-        <input type=hidden name="oid" value="00D2z0000001Lts">
-        <input type=hidden name="retURL" value="http://">
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
 <!--  these lines if you wish to test in debug mode.                          -->
@@ -25,7 +24,7 @@
 <!--  ----------------------------------------------------------------------  -->
       <div class="row text-center">
         <div class="col-6">
-          <input  class="form-control" id="first_name" placeholder="First name" aria-label="First name" name="first_name" type="text" /><br>
+          <input  class="form-control" id="name" placeholder="First name" maxlength="80" aria-label="First name" name="name" type="text" /><br>
         </div>
         <div class="col-6">
           <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" id="last_name"  name="last_name">
